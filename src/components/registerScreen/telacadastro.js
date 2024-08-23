@@ -1,18 +1,18 @@
 import React from "react";
-import { View, Text, StyleSheet,TextInput, Image, Button, Alert } from "react-native";
+import { View, Text, StyleSheet, TextInput, Image, Button, Alert } from "react-native";
 import Logo from "../../image/Logo";
 import Title from "../../tittle";
 
-export default function TelaDeRegistro(){
-    return(
-    <View>
-        <View style={styles.principalContainer}>
-            <View style={styles.logoregistro}>
-                <View><Logo/></View>
-                <View><Title/></View>
+export default function TelaDeRegistro() {
+    return (
+        <View>
+            <View style={styles.principalContainer}>
+                <View style={styles.logoregistro}>
+                    <View><Logo /></View>
+                    <View><Title /></View>
+                </View>
             </View>
-        </View>
-        
+
             <View style={styles.containerInput}>
                 <View style={styles.inputposition}>
                     <View>
@@ -33,83 +33,71 @@ export default function TelaDeRegistro(){
                     </View>
                 </View>
             </View>
-            
-    </View>
-    
+
+        </View>
+
     )
 }
 const styles = StyleSheet.create({
-    principalContainer:{
-        flexDirection:'row',
-        justifyContent:'center',
-        marginTop:109
-        
-        
+    principalContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 109
     },
-    logoregistro:{
-        flexDirection:'row',
-        alignItems:'center',
+    logoregistro: {
+        flexDirection: 'row',
+        alignItems: 'center',
     },
-    inputposition:{
-        flexDirection:'row',
-        justifyContent:'center',
+    inputposition: {
+        flexDirection: 'row',
+        justifyContent: 'center',
         backgroundColor: '#29343D',
         marginEnd: 70,
         marginStart: 25,
-        borderRadius:12,
-        height:320,
-        width:360,
-        borderWidth:5,
-        borderColor:'#2C97E4'
-
-        
+        borderRadius: 12,
+        height: 320,
+        width: 360,
+        borderWidth: 5,
+        borderColor: '#2C97E4'
     },
-    containerInput:{
-        marginTop:50,
-        
+    containerInput: {
+        marginTop: 50,
     },
-    input_name_Style:{
-        backgroundColor:'#fff',
-        width:230,
-        marginTop:5,
-        borderRadius:10,
-        width:300
-        
+    input_name_Style: {
+        backgroundColor: '#fff',
+        width: 230,
+        marginTop: 5,
+        borderRadius: 10,
+        width: 300
     },
-    input_number_style:{
-        backgroundColor:'#fff',
-        width:230,
-        marginTop:10,
-        borderRadius:10,
-        width:300
-
-    },
-    input_email_style:{
-        backgroundColor:'#fff',
+    input_number_style: {
+        backgroundColor: '#fff',
+        width: 230,
         marginTop: 10,
-        borderRadius:10
-
+        borderRadius: 10,
+        width: 300
     },
-    input_password_style:{
-        backgroundColor:'#fff',
-        marginTop:10,
-        borderRadius:10,
-        width:300
-
+    input_email_style: {
+        backgroundColor: '#fff',
+        marginTop: 10,
+        borderRadius: 10
     },
-    text_title_imputs:{
-        marginTop:10
+    input_password_style: {
+        backgroundColor: '#fff',
+        borderRadius: 10,
+        width: 300
     },
-
-    text_input_style:{
-        color:'#fff',
-        marginTop:10
+    text_title_imputs: {
+        marginTop: 10
     },
-    button_view:{
-        
+    text_input_style: {
+        color: '#fff',
+        marginTop: 10
+    },
+    button_view: {
     }
 })
-    
-        
-        
-        
+
+
+
+

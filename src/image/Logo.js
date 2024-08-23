@@ -1,11 +1,10 @@
 import { View, Image, StyleSheet } from "react-native";
 import React from "react";
 
-
-export default function Logo(){
-    return(
+export default function Logo() {
+    return (
         <View style={styles.containerLogo}>
-            <Image 
+            <Image
                 source={require('../../img/logobus.png')}
                 style={styles.logo}
             />
@@ -14,19 +13,11 @@ export default function Logo(){
 }
 
 const styles = StyleSheet.create({
-    logo:{
+    logo: {
         width: 80,
         height: 80,
-        
-        
-        
-        
-
-
     },
-    containerLogo:{
-        display:'flex',
-        
-
+    containerLogo: {
+        display: 'flex',
     }
 })

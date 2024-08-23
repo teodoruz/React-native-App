@@ -11,8 +11,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="log" component={TelaDeLogin} options={{headerShown:false}}/>
-        <Stack.Screen name="registro" component={telaDeRegistro} options={{headerShown:false}}/>
+        <Stack.Screen name="log" component={TelaDeLogin} options={{ headerShown: false }} />
+        <Stack.Screen name="registro" component={telaDeRegistro} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   )
